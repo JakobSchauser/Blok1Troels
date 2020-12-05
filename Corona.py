@@ -81,6 +81,7 @@ area_aarhus = ["Aarhus"]
 # ----------------------------------------------------------------- #
 
 data_posi = pd.read_csv("C:/Users/jakob/Documents/Blok1Troels/Municipality_cases_time_series.csv", sep=';', thousands='.', index_col=0)
+
 data_test = pd.read_csv("C:/Users/jakob/Documents/Blok1Troels/Municipality_tested_persons_time_series.csv", sep=';', thousands='.', index_col=0)
 
 print(data_test.head(10))
